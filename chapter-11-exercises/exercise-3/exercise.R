@@ -36,8 +36,8 @@ best_model <- filter(vehicles, make == "Acura", year == 2015) %>%
 # Without chaining
 temp_vars_best_model <- function() {
   acuras <- filter(vehicles, make == "Acura", year == 2015)
-  best.acura <- filter(acuras, hwy == max(hwy))
-  best.model <- select(best_acura, model)
+  best_acura <- filter(acuras, hwy == max(hwy))
+  best_model <- select(best_acura, model)
 }
 
 # Nested functions
