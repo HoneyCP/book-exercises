@@ -1,4 +1,4 @@
-# Chapter 11 Exercises
+# Chapter 12 Exercises
 
 This repository contains programming exercises for using the `tidyr` library to wrangle data,
 based on Chapter 12 of [_Programming Skills for Data Science_](https://programming-for-data-science.github.io/).
